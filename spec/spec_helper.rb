@@ -1,6 +1,8 @@
 require "bundler/setup"
 require "basic_cal"
+require 'simplecov'
 
+SimpleCov.start
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
   config.example_status_persistence_file_path = ".rspec_status"
@@ -12,3 +14,4 @@ RSpec.configure do |config|
     c.syntax = :expect
   end
 end
+

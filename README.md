@@ -1,6 +1,7 @@
 # BasicCal
 
 [![Build Status](https://travis-ci.org/area51-playzone/basic_calculator.svg?branch=master)](https://travis-ci.org/area51-playzone/basic_calculator)
+[![codecov](https://codecov.io/gh/area51-playzone/basic_calculator/branch/master/graph/badge.svg)](https://codecov.io/gh/area51-playzone/basic_calculator)
 
 Basic_cal is just a simple basic calculator gem that performs addition, multiplication, division and subtraction.
 

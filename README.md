@@ -1,8 +1,8 @@
 # BasicCal
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/basic_cal`. To experiment with that code, run `bin/console` for an interactive prompt.
+[![Build Status](https://travis-ci.org/area51-playzone/basic_calculator.svg?branch=master)](https://travis-ci.org/area51-playzone/basic_calculator)
 
-TODO: Delete this and the text above, and describe your gem
+Basic_cal is just a simple basic calculator gem that performs addition, multiplication, division and subtraction.
 
 ## Installation
 
@@ -22,7 +22,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+# each methods takes arbitrary number of parameters
+BasicCal::Calculator.add(1,2,3)
+# returns 6
+BasicCal::Calculator.subtract(1,2,3)
+# returns -4
+BasicCal::Calculator.multiply(1,2,3)
+# returns 6
+BasicCal::Calculator.divide(6,2,3)
+# returns 1
+```
 
 ## Development
 
